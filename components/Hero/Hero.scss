@@ -1,0 +1,140 @@
+.Hero{
+    height: 93vh ;
+    position: relative;
+
+    .container{
+      width: 100%;
+      height: 100%;
+    }
+
+    .row{
+      margin-right: 0;
+      height: 100%;
+    }
+
+  &__bg{
+    width: 100%;
+    height: 93vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/7576377/pexels-photo-7576377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+  }
+
+  &__content{
+    width: 100%;
+    height: 93vh;
+    position: absolute;
+    z-index: 2;
+    // background: rgba(221, 141, 66, 0.8);
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(221,141,66,0.9) 0%, rgba(221,141,66,0) 100%);
+  }
+
+  &__row{
+      height: 93vh;
+  }
+
+  &__info{
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+  }
+
+  &__upper-text{
+    margin-bottom: 2.5rem;
+  }
+
+  &__middle-text{
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+  &__lower-text{
+    margin-bottom: 1.5rem;
+  
+  }
+
+  &__text-container{
+      max-width: 650px;
+  }
+
+
+  &__title{
+    font-family: 'playlistscript';
+    color: white;
+    font-size: 4rem;
+  }
+
+  &__subtitle{
+      font-size: 2rem;
+      color: white;
+  }
+
+ 
+
+  &__motto{
+      font-weight: 700;
+      color: white;
+      font-size: 350%;
+  }
+
+  &__text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  &__data{
+      display: flex;
+      font-size: 1.5rem;
+  }
+
+  &__feature{
+      color: white;
+      padding: 10px;
+      font-weight: 700;
+      text-align: center;
+      h4{
+          font-size: 3rem;
+          margin-bottom: 1rem;
+      }
+      p{
+          font-size: 1rem;
+          font-weight: 500;
+      }
+  }
+
+  &__author{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+  }
+
+  .col-md-6{
+    padding-right: 0;
+  }
+
+
+  &__image{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      img{
+          width: 30rem;
+          border: 10px solid white;
+            border-radius: 10px;
+      }
+  }
+
+}

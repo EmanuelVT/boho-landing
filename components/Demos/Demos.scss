@@ -1,0 +1,36 @@
+.demos{
+   &__title{
+       padding: 6rem;
+       text-align: center;
+
+       h2{
+           font-family: 'playlistscript';
+           font-size: 350%;
+           font-weight: 700;
+       }
+
+       p{
+           margin-top: 20px;
+           font-weight: 700;
+           color: gray;
+
+       }
+
+       
+   }
+
+   &__images{
+       padding-bottom: 1.5rem;
+        img{
+            width: 100%;
+            border:5px solid rgb(228, 217, 217);
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            
+        }
+   }
+
+
+
+
+}

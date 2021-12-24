@@ -1,0 +1,174 @@
+@import '../components/Header/Header.scss';
+@import '../components/MobileMenu/MobileMenu.scss';
+@import '../components//Hero/Hero.scss';
+@import '../components/Demos/Demos.scss';
+@import '../components/Features/Features.scss';
+@import '../components/Highlights/Highlights.scss';
+@import '../components/ActionCall/ActionCall.scss';
+@import '../components/Footer/Footer.scss';
+
+
+@font-face {
+    font-family: 'playlistscript';
+    src: url('../public/css/fonts/playlist_script-webfont.woff2') format('woff2'),
+         url('../public/css/fonts/playlist_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+
+@media only screen and (width: 1280px) and (height: 800px) {
+    .Hero__text-container {
+        max-width: 500px;
+    }
+
+    
+}
+
+@media only screen and (width: 1024px) and (height: 600px) {
+    .Hero__text-container {
+        max-width: 400px;
+    }
+
+    .Hero__image img {
+        width: 20rem;
+    }
+
+    .Hero__lower-text {
+        margin-bottom: 0; 
+    }
+
+}
+
+
+@media only screen and (width: 1024px) and (height: 1366px) {
+    .Hero__text-container {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 936px) {
+    .header .menu-active{
+        left: -100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .Hero__image img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 936px) {
+
+    .header{
+        padding: 1.5rem;
+        .menu{
+            display: none;
+        }
+
+        .mobile-menu{
+            display: block;
+        }
+
+        .button-section{
+            .button{
+                padding: 0.5rem 1rem;
+                margin-right: 0;
+            }
+        }
+        
+    }
+
+    .Hero{
+        &__info{
+            text-align: center;
+        }
+
+        &__motto{
+            font-size: 300%;
+        }
+
+        &__image{
+            margin-top: 15px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .ActionCall{
+        &__text{
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+
+       
+
+        .button{
+            margin-right: 0;
+        }
+    }
+
+    
+
+    
+  }
+
+
+  @media only screen and (max-width: 360px) {
+      .Highlights .fas{
+          font-size: 3rem;
+      }
+  }
+
+
+ 
+
+  @media only screen and (max-width: 320px) {
+      body{
+        background-color: red;
+      }
+
+      .Hero{
+
+        &__image{
+            margin-top: 0;
+        }
+
+        &__feature{
+            padding:0px;
+        }
+
+        &__lower-text{
+            margin-bottom: 5px;
+        }
+
+        &__author{
+            margin-bottom: 5px;
+        }
+
+
+      }
+        
+  }
+
+
+  @media only screen and (max-width: 280px) {
+    .header .button-section .button {
+        font-size: 0.6rem;
+    }
+
+    .Hero__motto {
+        font-size: 270%;
+    }
+  }
