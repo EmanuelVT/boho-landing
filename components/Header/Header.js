@@ -36,24 +36,40 @@ export default function Header(){
 
 
             <section className={menuActive ? "mobile-menu-column menu-active":"mobile-menu-column menu-inactive"} >
-                <a href="#" className="item">
-                    <div className="item-content">
+                <a href="#demos" className="item" onClick={() => 
+                          setMenuActive(!menuActive)
+                            
+
+                            }>
+                    <div className="item-content" onClick={() => 
+                          setMenuActive(!menuActive)
+                            
+
+                            }>
                         Demos
                     </div>
                 </a>
-                <a href="#" className="item" >
+                <a href="#features" className="item" onClick={() => 
+                          setMenuActive(!menuActive)
+                            
+
+                            }>
                     <div className="item-content">
                         Features
+                    </div>
+                </a>
+                <a href="#highlights" className="item" onClick={() => 
+                          setMenuActive(!menuActive)
+                            
+
+                            }>
+                    <div className="item-content">
+                        Highlights
                     </div>
                 </a>
                 <a href="#" className="item">
                     <div className="item-content">
                         Documentation
-                    </div>
-                </a>
-                <a href="#" className="item">
-                    <div className="item-content">
-                        Support
                     </div>
                 </a>
             </section>

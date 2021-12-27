@@ -3,7 +3,7 @@ export default function Highlights(){
         <section className="Highlights" id="highlights">
             <div className="container">
                 <div className="Highlights__header">
-                    <h2>Superb Highlights</h2>
+                    <h2>Boho Highlights</h2>
                     <p>Boho Chic Shows Off</p>
                 </div>
                 <div className="Highlights__boxer">

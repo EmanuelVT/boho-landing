@@ -8,13 +8,16 @@ export default function Features(){
                 <div className="row">
                     <div className="col-md-6">
                         <div className="Features__text">
-                            <h1>Product Layouts</h1>
-                            <p>Highlight potentials of your products</p>
+                            <h1>Chic Design</h1>
+                            <p>Elegant and clean design for</p>
+                            <p>your products and collections.</p>
                         </div>
                         
                     </div>
                     <div className="col-md-6">
-                        <img src="/images/collection.png"></img>
+                      
+                        <img src="/images/boho-style.png"></img>
+                      
                     </div>
 
                 </div>
@@ -25,8 +28,8 @@ export default function Features(){
                         </div>
                         <div className="col-md-6 order-1 order-md-2">
                             <div className="Features__text">
-                                <h1>Product Layouts</h1>
-                                <p>Highlight potentials of your products</p>
+                                <h1>Blogs Layouts</h1>
+                                <p>One or two column layouts for your blog articles.</p>
                             </div>
                             
                         </div>
@@ -37,13 +40,13 @@ export default function Features(){
                 <div className="row">
                     <div className="col-md-6">
                         <div className="Features__text">
-                            <h1>Product Layouts</h1>
-                            <p>Highlight potentials of your products</p>
+                            <h1>Collection Layout</h1>
+                            <p>Clean and simple grid layout for all your collections.</p>
                         </div>
                         
                     </div>
                     <div className="col-md-6">
-                        <img src="/images/about-page.png"></img>
+                        <img src="/images/collection.png"></img>
                     </div>
 
                 </div>

@@ -4,7 +4,7 @@ export default function Demos(){
             <div className="container">
                 <div className="demos__title">
                     <h2>Pre-Build Demos</h2>
-                    <p>Comes with 13+ homepages available with multi style that better for your choice.</p>
+                    <p>Multipurpose eCommerce demos for any type of business.</p>
                 </div>
                 <div className="demos__images">
                     <div className="row">

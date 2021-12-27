@@ -13,30 +13,30 @@ export default function Hero(){
                         <div className="Hero__text-container">
                             <div className="Hero__upper-text">
                                 <h2 className="Hero__title">Boho Chic</h2>
-                                <p className="Hero__subtitle">Modern. Minimal. Clean.</p>
+                                <p className="Hero__subtitle">Elegant. Minimal. Timeless.</p>
                             </div>
 
                             <div className="Hero__middle-text">
-                                <h3 className="Hero__motto">Fashion Multipurpose eCommerce Theme</h3>
+                                <h3 className="Hero__motto">Chic Multipurpose eCommerce Theme</h3>
                             </div>
 
                             <div className="Hero__lower-text">
                                 <div className="Hero__data">
                                         <div className="Hero__feature">
-                                            <h4>10+</h4>
-                                            <p>Homepages</p>
-                                        </div>
-                                        <div className="Hero__feature">
                                             <h4>5+</h4>
-                                            <p>Product pages</p>
+                                            <p>Homepages</p>
                                         </div>
                                         <div className="Hero__feature">
                                             <h4>5+</h4>
                                             <p>Shop pages</p>
                                         </div>
                                         <div className="Hero__feature">
-                                            <h4>5+</h4>
-                                            <p>Header styles</p>
+                                            <h4><i class="far fa-newspaper"></i></h4>
+                                            <p>Multiple blogs</p>
+                                        </div>
+                                        <div className="Hero__feature">
+                                            <h4><i class="fab fa-shopify"></i></h4>
+                                            <p>Shopify functionality</p>
                                         </div>
                                     </div>
                             </div>
@@ -44,7 +44,7 @@ export default function Hero(){
 
                         
                                 <div className="Hero__author">
-                                 <p>Made by 87 Lux</p>           
+                                 <p>By 87 Lux</p>           
                             </div>
                                
                             </div>
@@ -56,7 +56,7 @@ export default function Hero(){
                 <div className="col-md-6">
 
                         <div className="Hero__image">
-                            <img src="https://cdn.shopify.com/s/files/1/0550/8877/5322/t/8/assets/guy1.jpg?v=11224525754500375847"></img>
+                            <img src="/images/main-img.png"></img>
                         </div>
 
                        

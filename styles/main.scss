@@ -119,6 +119,12 @@ body{
         }
     }
 
+    .Features{
+        &__text{
+            margin-bottom: 4rem;
+        }
+    }
+
     
 
     
@@ -129,6 +135,8 @@ body{
       .Highlights .fas{
           font-size: 3rem;
       }
+
+      
   }
 
 
@@ -171,4 +179,6 @@ body{
     .Hero__motto {
         font-size: 270%;
     }
+
+   
   }
