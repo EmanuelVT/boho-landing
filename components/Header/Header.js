@@ -6,7 +6,7 @@ export default function Header(){
     const[menuActive, setMenuActive] = useState(false);
 
     return(
-        <section className="header">
+        <section className="header sticky">
             <div className="container">
                 <div className="row">
                     <div className="col-6">
@@ -21,7 +21,7 @@ export default function Header(){
                             
 
                             }>
-                            <i class="fas fa-bars"></i>
+                            <i className="fas fa-bars"></i>
                         </div>
                     </div>
                    <div className="col-6 button-section">

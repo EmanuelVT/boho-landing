@@ -31,11 +31,11 @@ export default function Hero(){
                                             <p>Shop pages</p>
                                         </div>
                                         <div className="Hero__feature">
-                                            <h4><i class="far fa-newspaper"></i></h4>
+                                            <h4><i className="far fa-newspaper"></i></h4>
                                             <p>Multiple blogs</p>
                                         </div>
                                         <div className="Hero__feature">
-                                            <h4><i class="fab fa-shopify"></i></h4>
+                                            <h4><i className="fab fa-shopify"></i></h4>
                                             <p>Shopify functionality</p>
                                         </div>
                                     </div>

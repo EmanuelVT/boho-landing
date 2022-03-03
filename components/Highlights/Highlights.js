@@ -12,7 +12,7 @@ export default function Highlights(){
                             <div className="Highlights__box">
                                 <div className="row">
                                     <div className="col-3 Highlights__icon">
-                                        <i class="fas fa-mobile-alt"></i>
+                                        <i className="fas fa-mobile-alt"></i>
                                     </div>
                                     <div className="col-9 Highlights__text">
                                         <h3>Mobile Design</h3>
@@ -27,7 +27,7 @@ export default function Highlights(){
                             <div className="Highlights__box">
                                     <div className="row">
                                         <div className="col-3 Highlights__icon">
-                                            <i class="fas fa-edit"></i>
+                                            <i className="fas fa-edit"></i>
                                         </div>
                                         <div className="col-9 Highlights__text">
                                             <h3>Hero and Collection</h3>
@@ -41,7 +41,7 @@ export default function Highlights(){
                             <div className="Highlights__box">
                                 <div className="row">
                                     <div className="col-3 Highlights__icon">
-                                        <i class="fas fa-mail-bulk"></i>
+                                        <i className="fas fa-mail-bulk"></i>
                                     </div>
                                     <div className="col-9 Highlights__text">
                                         <h3>Email and Comments</h3>
@@ -56,7 +56,7 @@ export default function Highlights(){
                             <div className="Highlights__box">
                                     <div className="row">
                                         <div className="col-3 Highlights__icon">
-                                            <i class="fas fa-newspaper"></i>
+                                            <i className="fas fa-newspaper"></i>
                                         </div>
                                         <div className="col-9 Highlights__text">
                                             <h3>Multiple Blogs</h3>
@@ -70,7 +70,7 @@ export default function Highlights(){
                             <div className="Highlights__box">
                                 <div className="row">
                                     <div className="col-3 Highlights__icon">
-                                        <i class="fas fa-shopping-cart"></i>
+                                        <i className="fas fa-shopping-cart"></i>
                                     </div>
                                     <div className="col-9 Highlights__text">
                                         <h3>Instant Add to Cart</h3>
@@ -85,7 +85,7 @@ export default function Highlights(){
                             <div className="Highlights__box">
                                     <div className="row">
                                         <div className="col-3 Highlights__icon">
-                                            <i class="fab fa-shopify"></i>
+                                            <i className="fab fa-shopify"></i>
                                         </div>
                                         <div className="col-9 Highlights__text">
                                             <h3>Shopify Functionality</h3>
